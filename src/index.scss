@@ -15,8 +15,8 @@ html {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -40,7 +40,7 @@ button {
   margin: 0.8rem 0;
   padding: 0 1rem;
   border: solid black 0.2rem;
-  box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 1);
   cursor: pointer;
 }
 
@@ -82,14 +82,11 @@ input {
 
 .main__sides {
   justify-content: space-between;
+  padding: 1rem 0;
 }
 
 .main__sctitle {
   justify-content: space-between;
-}
-
-.main__sides {
-  padding: 1rem 0;
 }
 
 .main__list {
@@ -109,6 +106,6 @@ input {
   background: none;
   margin: 1rem 0;
   padding: 0 1rem;
-  box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 1);
   cursor: pointer;
 }
