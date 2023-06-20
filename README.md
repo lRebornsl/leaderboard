@@ -20,14 +20,11 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
@@ -62,7 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://google.com)
+- [Coming soon](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +102,7 @@ To run the project, execute the following command:
 Example command:
 
 ```sh
-  npm start
+  npm run start
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
