@@ -1,0 +1,114 @@
+@import url(//db.onlinewebfonts.com/c/1d846b75dca946282441b7f9325004a9?family=JollyGoodSans-Bold);
+
+$lightGray: #ddd;
+$mainFont: "Comic Sans MS", "Comic Sans", cursive;
+
+/* Global */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $mainFont;
+  font-size: 1.6rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  font-family: $mainFont;
+  font-size: 1.3rem;
+  background: none;
+  margin: 0.8rem 0;
+  padding: 0 1rem;
+  border: solid black 0.2rem;
+  box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
+  cursor: pointer;
+}
+
+input {
+  font-family: $mainFont;
+  padding: 0.4rem;
+  margin: 1rem 0;
+  border: solid black 0.2rem;
+}
+
+::placeholder {
+  color: black;
+}
+
+/* Utility */
+.flex {
+  display: flex;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.p-y4 {
+  padding: 0 4rem;
+}
+
+.g-field {
+  background-color: $lightGray;
+}
+
+/* Main */
+.main__container {
+  max-width: 144rem;
+  width: 90%;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.main__sides {
+  justify-content: space-between;
+}
+
+.main__sctitle {
+  justify-content: space-between;
+}
+
+.main__sides {
+  padding: 1rem 0;
+}
+
+.main__list {
+  border: solid black 0.25rem;
+  margin-top: 2rem;
+}
+
+.main__item {
+  padding: 0.2rem 1rem;
+}
+
+.main__form {
+  margin-top: 1.4rem;
+}
+
+.main__form--submit {
+  background: none;
+  margin: 1rem 0;
+  padding: 0 1rem;
+  box-shadow: 3px 3px 0px 0px rgba(0,0,0,1);
+  cursor: pointer;
+}
