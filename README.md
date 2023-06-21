@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Microverse README Template</b></h3>
+  <h3><b>Leaderboard</b></h3>
 
 </div>
 
@@ -20,48 +20,29 @@
   - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Leaderboard <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-
-**[your_project__name]** is a...
+**Leaderboard** is a webpage created with web-pack tools that allow you to insert your name and score, and show you a leaderboard with your data.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li><a href="https://html5.org">HTML</a></li>
+    <li><a href="https://www.w3.org/Style/CSS/Overview.en.html">CSS</a></li>
+    <li><a href="https://www.javascript.com">JS</a></li>
   </ul>
 </details>
 
@@ -69,11 +50,8 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Write a name and score**
+- **Show the main section**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,9 +59,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
+- [Coming soon](#)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,83 +67,43 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+In order to run this project you need: Visual Studio Code
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
 Example commands:
 
 ```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  cd leaderboard
+  git clone git@github.com:lRebornsl/leaderboard.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-<!--
 Example command:
 
 ```sh
-  cd my-project
-  gem install
+  cd leaderboard
+  npm install
 ```
---->
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
 Example command:
 
 ```sh
-  rails server
+  npm run start
 ```
---->
-
-### Run tests
-
-To run tests, run the following command:
-
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
-
-### Deployment
-
-You can deploy this project using:
-
-<!--
-Example:
-
-```sh
-
-```
- -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,19 +111,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👤 **lRebornsl**
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@lRebornsl](https://github.com/lRebornsl)
+- Twitter: [@RebornsDev](https://twitter.com/RebornsDev)
+- LinkedIn: [Anthony Vásquez](https://www.linkedin.com/in/avvm98/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,11 +123,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Add a name and score for the leaderboard**
+- [ ] **Use an  API**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -217,9 +142,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please show us support by givintg it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -227,9 +150,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank my colleagues at Microverse for their support during the project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
