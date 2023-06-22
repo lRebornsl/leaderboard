@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="//db.onlinewebfonts.com/c/1d846b75dca946282441b7f9325004a9?family=JollyGoodSans-Bold" rel="stylesheet" type="text/css"/>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+  <main class="main">
+    <div class="main__container">
+      <h1>Leaderboard</h1>
+      <div class="main__sides flex">
+        <div class="main__left w-50 p-y4">
+          <div class="main__sctitle flex"><h2>Recent scores</h2><button class="refreshButton">Refresh</button></div>
+          <div class="main__list">
+            <ul class="main__ul">
+            </ul>
+          </div>
+        </div>
+        <div class="main__right w-50 p-y4">
+          <h2>Add your score</h2>
+          <form class="main__form">
+            <input id="main__form--user" type="text" placeholder="Your name"><br>
+            <input id="main__form--score" type="text" placeholder="Your score"><br>
+            <input class="main__form--submit" type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
