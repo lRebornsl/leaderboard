@@ -12,21 +12,17 @@
       <h1>Leaderboard</h1>
       <div class="main__sides flex">
         <div class="main__left w-50 p-y4">
-          <div class="main__sctitle flex"><h2>Recent scores</h2><button>Refresh</button></div>
+          <div class="main__sctitle flex"><h2>Recent scores</h2><button class="refreshButton">Refresh</button></div>
           <div class="main__list">
             <ul class="main__ul">
-              <li class="main__item">Name: 100</li>
-              <li class="main__item g-field">Name: 76</li>
-              <li class="main__item">Name: 50</li>
-              <li class="main__item g-field">Name: 16</li>
             </ul>
           </div>
         </div>
         <div class="main__right w-50 p-y4">
           <h2>Add your score</h2>
           <form class="main__form">
-            <input type="text" placeholder="Your name"><br>
-            <input type="text" placeholder="Your score"><br>
+            <input id="main__form--user" type="text" placeholder="Your name"><br>
+            <input id="main__form--score" type="text" placeholder="Your score"><br>
             <input class="main__form--submit" type="submit" value="Submit">
           </form>
         </div>
