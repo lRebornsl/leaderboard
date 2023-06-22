@@ -50,8 +50,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **Write a name and score**
-- **Show the main section**
+- **Insert user and score for the leaderboard**
+- **Refresh leaderboard**
+- **API calls**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,8 +124,7 @@ Example command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add a name and score for the leaderboard**
-- [ ] **Use an  API**
+- [ ] **Sort leaderboard**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
