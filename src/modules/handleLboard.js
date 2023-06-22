@@ -6,8 +6,9 @@ const ul = document.querySelector('.main__ul');
 
 export const render = async () => {
   const lbData = await getScore();
+  const lbSort = lbData.sort((b, a) => a.score - b.score);
   ul.innerHTML = '';
-  lbData.map((lbData) => {
+  lbSort.map((lbData) => {
     ul.appendChild(listItem(lbData));
     return 'completed';
   });
