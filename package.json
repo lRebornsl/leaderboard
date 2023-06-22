@@ -46,6 +46,7 @@
     "async": "^3.2.4",
     "asynckit": "^0.4.0",
     "axe-core": "^4.7.2",
+    "axios": "^1.4.0",
     "balanced-match": "^1.0.2",
     "base64-js": "^1.5.1",
     "bcp47": "^1.1.2",
