@@ -4,3 +4,5 @@ export class User {
     this.score = score;
   }
 }
+
+export default User;
